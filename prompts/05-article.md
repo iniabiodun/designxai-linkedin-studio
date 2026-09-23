@@ -1,4 +1,4 @@
-# 04 Article draft (after the session)
+# 05 Article draft (after the session)
 
 Goal: a marked idea becomes a long-form first draft, in your essay voice, on the same page.
 
@@ -11,7 +11,7 @@ Paste it into the same task as the rest, or into a new task with the rules block
 ---
 
 ```
-Step 4: one more scheduled task, "Article draft", plus a skill for my long-form voice. Propose first, then wait for "go".
+Step 5: one more scheduled task, "Article draft", plus a skill for my long-form voice. Propose first, then wait for "go".
 
 The skill, called <my name or newsletter>-essay:
 - Read my three most recent long pieces at <URL, or "none">. Extract the arc (how I enter, where my own evidence comes, where borrowed wisdom comes, whether I name a framework, how I return to the opening, how I end), the voice rules, the bans, and my title shapes. If I have none, build the arc from the story I told in Step 1 and my approved posts, say so, and note in the skill that it should be rebuilt once three long pieces exist.

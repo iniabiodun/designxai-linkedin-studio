@@ -1,19 +1,21 @@
-# 02 The Studio
+# 03 The Studio
 
 Goal: one page that takes an idea to an approved post without leaving it.
 
-Paste this after both skills are saved. Claude builds it as an Artifact so it survives the session and you can open it from any device.
+Paste this after both skills are saved. The assistant builds it as a page it can publish (an Artifact in Claude, a Canvas in ChatGPT) so it survives the session and you can open it from any device.
+
+This is the step most tied to Claude. An Artifact runs its own AI calls with your skills embedded and writes to your table. In another tool the page may be simpler, or the assistant drafts in chat and you copy the approved post to your table by hand. Run the prompt and see what it can do; the tests at the end tell you what you got.
 
 ---
 
 ```
-Step 2: build the LinkedIn Studio as an Artifact. Propose first, then wait for "go".
+Step 3: build the LinkedIn Studio as a page you can publish. Propose first, then wait for "go".
 
 What it does, top to bottom:
 - Idea. A box for one idea. An Add photo button. The photo shows in the preview only; connectors cannot upload it, so say so once after sending.
 - Type. My post types as a checklist with checkmarks, two columns. One selected at a time. Not tabs.
 - Generate ideas, Draft, Approve and send. Three buttons. Approve and send is the dark one.
-- Draft runs a chain: interview (three to five questions, one about my lived moment; I answer or skip), then Writing with the linkedin-post-generator skill, then Humanising (rewrite into my sentence shape, fix the ending per the skill), then Checking with the ai-isms-check skill. Both skills are embedded in the page as text so the page does not depend on finding them.
+- Draft runs a chain: interview (three to five questions, one about my lived moment; I answer or skip), then Writing with the linkedin-post-generator skill, then Humanising (rewrite into my sentence shape, fix the ending per the skill), then Checking with the no-ai-slop skill. Both skills are embedded in the page as text so the page does not depend on finding them.
 - Post. The draft in an editable box. Editing it updates the preview.
 - Other openings. The three alternatives as tiles. Clicking one swaps the first two lines.
 - Checks. Word count (flag under 150 or over 250), line 1 and line 2 length (flag over 62), which opening shape was used, and one line on why a scroller would stop.
@@ -50,10 +52,10 @@ Tabs say "one of these views". A checklist says "tag this". You are tagging. It 
 
 ## Why the skills are embedded
 
-The page runs its own Claude calls without your session's Memory or Skills. If the skill is not in the page, the page drafts without it. Embedding it means the page and your saved skill can drift, so when you change the skill, tell Claude to rebuild the page.
+The page runs its own AI calls without your session's memory or skills. If the skill is not in the page, the page drafts without it. Embedding it means the page and your saved skill can drift, so when you change the skill, tell the assistant to rebuild the page.
 
 ## What "ready" looks like
 
-- The page is published and opens in the side panel
+- The page is published and opens
 - Nine tests reported, all passing
 - One real post has gone to your table with "Approve and send"

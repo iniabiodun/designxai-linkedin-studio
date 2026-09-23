@@ -1,4 +1,4 @@
-# 03 The weekly loop
+# 04 The weekly loop
 
 Goal: ideas arrive on a page every week, researched, without you asking.
 
@@ -7,11 +7,11 @@ Two scheduled tasks. One reads your meetings. One reads the news in your field. 
 ---
 
 ```
-Step 3: two scheduled tasks. Propose first, then wait for "go". Run each once by hand before you set its schedule.
+Step 4: two scheduled tasks. Propose first, then wait for "go". Run each once by hand before you set its schedule.
 
 Task 1, "Weekly content loop":
-1. Read my Memory and my linkedin-post-generator skill. Openings come only from its openings section.
-2. Read every meeting from the last seven days in my meeting notes connector (Granola or similar). If I have none, use what I do have, in this order: my calendar for the week (event titles and attendees, to know what I was in), then my sent email for the week, then anything I paste. If none of those exist, ask me for three things that happened this week, one line each, and work from those.
+1. Read my memory and my linkedin-post-generator skill. Openings come only from its openings section.
+2. Read every meeting from the last seven days in my meeting notes connector (Granola, Fireflies or similar). If I have none, use what I do have, in this order: my calendar for the week (event titles and attendees, to know what I was in), then my sent email for the week, then anything I paste. If none of those exist, ask me for three things that happened this week, one line each, and work from those.
 3. Find five post ideas. A good idea is one of these:
    - a small, specific detail that reveals how someone sees the world
    - a belief shaped by experience, stated plainly enough to challenge
