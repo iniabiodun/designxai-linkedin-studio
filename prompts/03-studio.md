@@ -21,7 +21,7 @@ What it does, top to bottom:
 - Checks. Word count (flag under 150 or over 250), line 1 and line 2 length (flag over 62), which opening shape was used, and one line on why a scroller would stop.
 - Feed preview on the right: my name, my headline, the first two lines, "...more", the photo if any, Like Comment Repost Send.
 - Generate ideas opens a panel: five ideas from a topic I type, or, if I have a meeting notes connector, from the last seven days of my meetings. Clicking one fills the Idea box and picks the type.
-- Approve and send writes one row to my <Craft table "Content schedule" / Notion database / sheet> with: name, type, status Draft, shortlist on, date, hook, second line, body, alternative openings. Then shows one line: "Sent. Open the entry. Photo not sent. Add it by hand when you post." It never posts to LinkedIn.
+- Approve and send writes one row to a table called "Content schedule" in my LinkedIn Studio folder (a database in Notion or Craft, a sheet in Sheets). Create the table now if it is missing, empty, with these fields: name, type, status Draft, shortlist on, date, hook, second line, body, alternative openings. Then shows one line: "Sent. Open the entry. Photo not sent. Add it by hand when you post." It never posts to LinkedIn.
 
 Look:
 - Make a design.md first from <my newsletter or site URL, a screenshot I paste, or "none">: canvas, text, one pop colour, one accent, type, radius. If I have none, ask me for one colour I like and build a plain palette around it. Use those, not defaults.

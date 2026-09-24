@@ -11,7 +11,7 @@ Step 4: two scheduled tasks. Propose first, then wait for "go". Run each once by
 
 Task 1, "Weekly content loop":
 1. Read my memory and my linkedin-post-generator skill. Openings come only from its openings section.
-2. Read every meeting from the last seven days in my meeting notes connector (Granola, Fireflies or similar). If I have none, use what I do have, in this order: my calendar for the week (event titles and attendees, to know what I was in), then my sent email for the week, then anything I paste. If none of those exist, ask me for three things that happened this week, one line each, and work from those.
+2. Read every meeting from the last seven days in my meeting notes connector (Granola, Fireflies or similar). If I have none, ask me for three things that happened this week, one line each, plus anything I want to paste, and work from those. Do not read my email or calendar.
 3. Find five post ideas. A good idea is one of these:
    - a small, specific detail that reveals how someone sees the world
    - a belief shaped by experience, stated plainly enough to challenge
@@ -23,7 +23,7 @@ Task 1, "Weekly content loop":
 4. Research each idea the way I research long-form: borrowed wisdom from a named practitioner with a real quote and link (<my sources> first), a public case with a number and a link, a peer who did the thing in public with a link. Say when nothing was found. Do not pad.
 5. For each idea write: title; source meeting and day; why it stops a scroll; an opening in my voice, two lines under 62 characters, in one of my shapes; post type; the research.
 6. Push me the five titles and wait for my reply in the run.
-7. Write only the ones I keep to a page called "Ideas, week of <day> <Month>" in my folder. Create the page if it is missing. One section per idea: heading, one line of type, source and why, the opening as a quote, a collapsed Research toggle, and an empty line that says "Draft:". If my folder cannot hold pages (a spreadsheet), write each kept idea as one row on a sheet called "Ideas" with the same fields and the research in one cell. Never write ideas to my approved-posts table. If I say "none", do nothing.
+7. Write only the ones I keep to a page called "Ideas, week of <day> <Month>" in my folder. Create the page if it is missing. One section per idea: heading, one line of type, source and why, the opening as a quote, a collapsed Research toggle, and an empty line that says "Draft:". If my store is Sheets, write each kept idea as one row on a sheet called "Ideas" with the same fields and the research in one cell. Never write ideas to my approved-posts table. If I say "none", do nothing.
 
 Task 2, "News ideas":
 Same rules and the same page. Three ideas from the past week's news in: <my topics>. Sources: my usual reads plus the wider press. Each idea carries the link it came from.

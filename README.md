@@ -2,7 +2,7 @@
 
 Build your own LinkedIn Studio with an AI assistant: a page that turns an idea into a post in your voice, shows you how it will look in the feed, and sends the approved post to a table you own. Then a weekly loop that reads your week and proposes ideas while you sleep.
 
-Nothing to install. You need an AI assistant with memory, saved instructions, scheduled tasks and connectors, a place to keep your posts, and a piece of work you can talk about for ten minutes. Built and tested on Claude. Runs on ChatGPT with one caveat, explained in the start file.
+Nothing to install. You need an AI assistant with memory, saved instructions, scheduled tasks and connectors, one place to keep your posts (Craft, Notion or Google Sheets, pick one), and a piece of work you can talk about for ten minutes. Built and tested on Claude. Runs on ChatGPT with one caveat, explained in the start file.
 
 **Read [START-HERE.md](START-HERE.md) first.** It covers setup, the three decisions to make on paper, and the order to run the prompts.
 
@@ -11,7 +11,7 @@ Nothing to install. You need an AI assistant with memory, saved instructions, sc
 | Path | What it is |
 | --- | --- |
 | [START-HERE.md](START-HERE.md) | Setup, the paper step, how to run the session, testing, what you leave with |
-| [prompts/00-setup.md](prompts/00-setup.md) | Rules for the session, connectors, browser, folder |
+| [prompts/00-setup.md](prompts/00-setup.md) | Rules for the session, connectors, browser, and creating your folder |
 | [prompts/01-voice.md](prompts/01-voice.md) | The assistant reads what you have written and interviews you. Output: a skill with your voice in it |
 | [prompts/02-no-ai-slop.md](prompts/02-no-ai-slop.md) | A second skill that strips AI tells from every draft |
 | [prompts/03-studio.md](prompts/03-studio.md) | Build the page. Output: a published page that drafts, checks and sends |

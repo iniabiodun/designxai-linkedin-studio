@@ -15,7 +15,7 @@ This kit was built and tested on Claude. The prompts use plain words and tell th
 | Scheduled task | Scheduled tasks | Tasks |
 | Page: something the assistant builds and publishes | Artifacts | Canvas |
 | Connectors | Connectors | Connectors and apps |
-| Browser | Built-in browser | Agent mode |
+| Browser | Built-in browser, or the Claude in Chrome extension | Agent mode |
 
 Setup takes ten to twenty minutes. Do it before the session if you can. If not, we do it together at the start.
 
@@ -23,11 +23,21 @@ Setup takes ten to twenty minutes. Do it before the session if you can. If not, 
 
 Open your assistant's desktop app. Settings, then Connectors.
 
-- **A database** for your approved posts: Craft, Notion or Google Sheets. Connect it and make one empty folder called "LinkedIn Studio".
+- **One place to store everything**: Craft, Notion or Google Sheets. Pick one, not two. Approved posts and weekly ideas both go there. Connect it. You do not need to make a folder; the assistant creates "LinkedIn Studio" for you in the first prompt.
 - **A meeting note taker**, if you use one: Granola, Fireflies, or any dictation tool that leaves you notes. The weekly loop reads it. Skip if you do not; the loop has a fallback.
-- **LinkedIn**, if you have it. Sign in once in the assistant's browser so it can read your past posts. Open a new task, ask it to open linkedin.com in its browser, and sign in when the pane shows the login page. If you have no LinkedIn, or have never posted, skip this and bring any writing you have: a newsletter link, a case study, a long email you were proud of.
+- **LinkedIn**, if you have it. The assistant needs to be signed in to read your past posts. Two ways, pick one:
+  - **The app's browser.** Open a new task, ask it to open linkedin.com in its browser, and sign in when the pane shows the login page.
+  - **The Claude in Chrome extension.** Install it, sign in to LinkedIn in Chrome as you normally would, and the assistant reads it through your Chrome.
 
-One note on where things land. Approved posts go to a table, and a spreadsheet is fine for that. Weekly ideas go to a page, one section per idea, which needs Craft, Notion or something else with pages. If a spreadsheet is all you have, the weekly loop writes ideas as rows instead. It works. It reads less well.
+  If you have no LinkedIn, or have never posted, skip this and bring any writing you have: a newsletter link, a case study, a long email you were proud of.
+
+You do not need Gmail or Calendar. Leave them off.
+
+### Allow all permissions for this workshop
+
+Each connector asks before every read and write unless you tell it not to. In a workshop that means clicking "Allow" dozens of times. Before the day, open each connector you just added (Settings, then Connectors) and set its tools to **Always allow**. If a prompt still pops up during the session, pick "Always allow", not "Allow once". You can tighten it again afterwards. The kit's own rule still holds: nothing is written to your store without "Approve and send".
+
+One note on where things land. Everything goes in the one store you picked, inside the "LinkedIn Studio" folder. Approved posts go to a table. Weekly ideas go to a page, one section per idea. Craft and Notion do both. If you picked Google Sheets, the weekly loop writes ideas as rows on a second sheet instead. It works. It reads less well.
 
 ## 2. Warm it up
 
@@ -37,7 +47,7 @@ Paste this into a new task and let it finish:
 List my connectors. If I have LinkedIn, open linkedin.com/in/me in your browser and tell me my display name and headline. Do not post anything.
 ```
 
-You are ready when the assistant names your connectors and, if you have LinkedIn, reads your headline back to you. If the browser pane shows a login page, sign in and ask again.
+You are ready when the assistant names your connectors and, if you have LinkedIn, reads your headline back to you. If the browser pane shows a login page, sign in and ask again. If you use the Chrome extension, make sure you are signed in to LinkedIn in Chrome first.
 
 ## 3. Decide three things on paper
 
@@ -55,7 +65,7 @@ If you let the assistant choose these, it will choose the average.
 
 Open a new task. Run the files in `prompts/`, one at a time, in order. Paste the block, read what comes back, then open the next file.
 
-1. `prompts/00-setup.md`: rules for the session, connectors, browser, folder.
+1. `prompts/00-setup.md`: rules for the session, connectors, browser, and the assistant creates your folder.
 2. `prompts/01-voice.md`: the assistant reads what you have written and interviews you. Output: a skill with your voice in it.
 3. `prompts/02-no-ai-slop.md`: a second skill that strips AI tells from every draft. Output: the no-ai-slop skill.
 4. `prompts/03-studio.md`: build the page. Output: a published page that drafts, checks and sends.
@@ -84,6 +94,7 @@ The first draft will be wrong. That is the exercise. The skill after the fifth c
 ## If something breaks
 
 - **The assistant cannot see a connector**: it should stop and name it. Connect it in Settings and say "go".
-- **The browser shows a login page or a popup**: sign in or close it by hand in the pane, then say "done".
+- **The browser shows a login page or a popup**: sign in or close it by hand in the pane, then say "done". Or switch to the Claude in Chrome extension and sign in there.
+- **You keep being asked to allow a connector**: pick "Always allow", or set the connector's tools to Always allow in Settings.
 - **The assistant wants to write to your folder before you approved**: say no. Nothing lands without "Approve and send", or your reply to a scheduled run telling it which ideas to keep.
 - **A draft names your employer or a client**: add the rule to the naming section and redraft.
