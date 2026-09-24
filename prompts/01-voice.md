@@ -30,7 +30,7 @@ Then interview me. Three to five questions, one at a time, about what you still 
 Then draft one post from the work I just told you about, so I can react to something concrete. Expect me to reject it. When I paste a line back and say "I would never say this", do not fix the post. Fix the rule, then redraft.
 
 When I say "lock", write the voice as a skill called linkedin-post-generator and propose it for saving. It must contain:
-0. An interview step: before any draft, ask three to five questions and wait. One must ask for my own lived moment. Never invent an action I took or a thing someone said.
+0. An interview step, for drafting in chat: before any draft, ask three to five questions and wait. The Studio page skips this step and drafts straight away. One must ask for my own lived moment. Never invent an action I took or a thing someone said.
 1. Positioning: <paste section 1 of my Voice Card>.
 2. Deliverables: the post, plus three alternative openings.
 3. Post structure in my terms, with the sentence shape you heard when I talked.
@@ -62,6 +62,8 @@ The story you tell is the one source everyone has. It is also the best one. Post
 ## Why the interview goes in the skill, not just the session
 
 A voice skill without an interview step drafts from the idea alone. It fills the gaps with plausible things you did not do. Two real observations that talk to each other make a post. The interview is how the skill gets them.
+
+The interview runs when you draft in chat. The Studio page skips it on purpose: there you want a draft in one click, and you can add detail to the idea box yourself.
 
 ## Why rejected drafts go in the skill
 
