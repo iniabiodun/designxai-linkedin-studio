@@ -14,7 +14,7 @@ Step 3: build the LinkedIn Studio as a page you can publish. Propose first, then
 What it does, top to bottom:
 - Idea. A box for one idea. An Add photo button. The photo shows in the preview only; connectors cannot upload it, so say so once after sending.
 - Generate ideas, Draft, Approve and send. Three buttons. Approve and send is the dark one.
-- Draft runs a chain: interview (three to five questions, one about my lived moment; I answer or skip), then Writing with the linkedin-post-generator skill, then Humanising (rewrite into my sentence shape, fix the ending per the skill), then Checking with the no-ai-slop skill. The skill picks the post type from the idea on its own; I never choose it. Both skills are embedded in the page as text so the page does not depend on finding them.
+- Draft goes straight to a post. No questions, no interview, even though the skill has an interview step: skip it on this page. Take the idea as written, pick the strongest angle and the post type that fits it best, and write. Use only what is in the idea box and what you know about me from the skill; never invent an action I took, a number, or a thing someone said. If a detail is missing, write around it. The chain: Writing with the linkedin-post-generator skill, then Humanising (rewrite into my sentence shape, fix the ending per the skill), then Checking with the no-ai-slop skill. The skill picks the post type from the idea on its own; I never choose it. Both skills are embedded in the page as text so the page does not depend on finding them.
 - Post. The draft in an editable box. Editing it updates the preview.
 - Other openings. The three alternatives as tiles. Clicking one swaps the first two lines.
 - Checks. Word count (flag under 150 or over 250), line 1 and line 2 length (flag over 62), which opening shape was used, and one line on why a scroller would stop.
@@ -30,8 +30,8 @@ Look:
 
 Before you publish, run these tests and tell me the result of each:
 1. Empty idea, press Draft: a one-line message, nothing else.
-2. A real idea: interview appears, questions are specific to the idea.
-3. Skip the interview: it still drafts.
+2. A real idea: a full draft appears with no questions asked first.
+3. A one-line idea: it still drafts, and invents no actions, numbers or quotes.
 4. Draft lands in paragraphs, not one sentence per line.
 5. Opening is one of my shapes. Ending is one of my closers.
 6. Word and line counts update as I edit.

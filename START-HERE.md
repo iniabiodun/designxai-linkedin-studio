@@ -92,7 +92,7 @@ Draft one post from a real idea and read it aloud. Three checks.
 
 **1. Would you have written that sentence?** Every line you would not say is a rule missing from your skill. Paste the line back and say "I would never say this". The assistant fixes the skill, not the post.
 
-**2. Did it invent anything?** An action you took, a number, a thing a colleague said. If yes, the interview step is too weak. Make it ask before it drafts.
+**2. Did it invent anything?** An action you took, a number, a thing a colleague said. If yes, add more of the real detail to the idea box and draft again, and tell the assistant to add a rule to your skill: never invent what is not in the idea.
 
 **3. Does it look like LinkedIn?** The most common bad output opens with a typed hook, runs one sentence per line, and closes with "Thoughts?". It will look like LinkedIn and it will not be you. Send it back to the voice skill and add the rule that stops it.
 
