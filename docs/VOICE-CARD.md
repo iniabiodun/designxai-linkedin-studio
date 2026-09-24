@@ -71,6 +71,8 @@ Write down which names can appear in a post, and which should not be mentioned a
 | Meeting notes | Granola, last seven days | |
 | Long-form drafts | Inside the idea's own section on the weekly page, as a toggle | |
 
+Use one store for all of it: Craft, Notion or Google Sheets. Not two. The assistant creates the "LinkedIn Studio" folder and everything inside it.
+
 Pages beat tables for anything you will read. Tables beat pages for anything you will sort.
 
 Leave Meeting notes blank if you have no note taker. The weekly loop has a fallback. If a spreadsheet is all you have, approved posts go to a sheet and the weekly ideas become rows instead of a page.
