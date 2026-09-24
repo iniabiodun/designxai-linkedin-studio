@@ -6,6 +6,8 @@ This is the step most people rush and the one the whole build rests on. Fill in 
 
 The prompt works whether you have 200 LinkedIn posts or none. The assistant reads what exists, then asks for what does not. The one thing it needs from everyone is ten minutes of you talking about your own work, then a few follow-up questions. Have a project in mind.
 
+**Bring writing beyond LinkedIn.** Most people have few posts, or none, and posts are often your most performed writing anyway. Have two or three other pieces ready to paste or link: an article, a blog post, a newsletter, a case study, or something you wrote for your team, like a project update, a proposal, a retro doc, or a long Slack message explaining a decision. Anything you wrote yourself that shows how you write. Strip anything confidential first. If you have none of it, that is fine: the talking step below is the fallback, and it works on its own.
+
 ---
 
 ```
@@ -13,11 +15,11 @@ Step 1: my voice.
 
 First, find out what you can read. Ask me these four things, one at a time, and go by my answers:
 a. Do I have LinkedIn posts I wrote myself? If yes, open my profile in your browser and read the last 50 originals. Skip reposts. If I have fewer than ten, read them all and treat them as a hint, not a voice.
-b. Do I have other writing? A newsletter, a blog, talk notes, long Slack or email messages, a portfolio, a case study, a cover letter. Read the three most recent or best: <URLs, pasted text, or "none">.
+b. Do I have other writing? Ask this even if I have LinkedIn posts. Give me examples so I remember what counts: published writing (an article, a blog post, a newsletter, a case study, a portfolio write-up, talk notes) and internal writing I did for my team (a project update, a proposal, a kickoff or retro doc, a design rationale, a long Slack message or email explaining a decision). Read up to three that I wrote alone and that sound like me: <URLs, pasted text, or "none">. Treat this writing as a stronger voice source than my LinkedIn posts. If I paste something with client names or internal numbers, do not store them.
 c. Do I have meeting notes you can read (Granola, Fireflies or similar)? If yes, read the last seven days. If no, skip it and say so; nothing else depends on it.
 d. Read my memory.
 
-If I have nothing written anywhere, do not guess my voice from my job title. Go straight to the talking step below and build the voice from that.
+If I have nothing written anywhere, say so plainly and move on. Do not guess my voice from my job title. Go straight to the talking step below and build the voice from that.
 
 From whatever you read, tell me in ten lines or fewer: what I write about, how I open, how I end, my sentence shape (paragraphs or lines), my tone, the words I lean on, and anything I never do. If you read nothing, say "no sample yet" and skip this. I will correct you. Wait for my corrections.
 
@@ -51,7 +53,8 @@ When I say "lock", write the voice as a skill called linkedin-post-generator and
 | --- | --- |
 | 50+ LinkedIn posts | Your posts, checked against the story you tell |
 | A handful of posts, or other writing | The other writing first, the posts as a hint, the story as the tiebreaker |
-| No LinkedIn, or a LinkedIn with nothing on it | The story you tell, plus any writing at all: emails, Slack, a case study |
+| No LinkedIn, but an article, a blog, or writing for your team | That writing, checked against the story you tell |
+| Nothing written anywhere | The story you tell. Ten minutes about work you care about is enough to start |
 | No meeting notes | Nothing changes here. Meeting notes only feed the weekly loop in step 4, and that step has a fallback. |
 
 The story you tell is the one source everyone has. It is also the best one. Posts show how you perform. The story shows how you talk. The skill should sound like the second.

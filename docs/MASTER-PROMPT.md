@@ -9,7 +9,7 @@ Fill the angle brackets from your Voice Card first. If you have not filled the c
 You say "go" five times. This is what each one starts.
 
 1. **Setup.** The assistant lists your connectors, reads your LinkedIn name and headline if you have one, and creates your empty "LinkedIn Studio" folder. Nothing else is written.
-2. **Voice.** It reads what you have written, gets you talking about one piece of work, interviews you, drafts one post for you to reject, and proposes a skill. You save it. This is the long stop.
+2. **Voice.** It reads what you have written (LinkedIn posts, plus any articles, blogs or writing you did for your team), gets you talking about one piece of work, interviews you, drafts one post for you to reject, and proposes a skill. You save it. This is the long stop.
 3. **No AI slop.** It proposes a second skill, a checklist of AI tells to strip from every draft. You save it.
 4. **The Studio.** It builds the page, runs nine tests and reports each. Then you draft one real post and send it to your table.
 5. **The weekly loop.** It sets up two scheduled tasks, runs each once by hand so you see the push, and schedules them.
@@ -43,7 +43,7 @@ STEP 0: SETUP
 List my connectors: my store and my meeting note taker. I do not use Gmail or Calendar here. Ask if I have LinkedIn; if yes, open linkedin.com/in/me in your browser, or through the Claude in Chrome extension if I use it, and read my name and headline back; if no, ask me for the name and one line to show on posts and write both to memory. Create an empty folder "LinkedIn Studio" in my store; it will not exist yet (a page in Notion or Craft, a spreadsheet in Sheets). Report in five lines. Wait.
 
 STEP 1: VOICE
-Ask what you can read, one question at a time: LinkedIn posts I wrote (read the last 50 originals; under ten, treat as a hint); other writing (<URLs, pasted text, or "none">); meeting notes (read seven days if a connector exists, otherwise skip and say so); my memory. If there is nothing to read, do not guess from my job title; go straight to the story.
+Ask what you can read, one question at a time: LinkedIn posts I wrote (read the last 50 originals; under ten, treat as a hint); other writing, asked even if I have posts, with examples so I remember what counts: an article, a blog, a newsletter, a case study, or internal writing for my team like a project update, a proposal, a retro doc, a long Slack message explaining a decision (read up to three I wrote alone: <URLs, pasted text, or "none">; treat it as stronger than my posts; do not store client names or internal numbers); meeting notes (read seven days if a connector exists, otherwise skip and say so); my memory. If there is nothing to read, do not guess from my job title; go straight to the story.
 From what you read, summarise my voice in ten lines: subjects, openings, endings, sentence shape, tone, words I lean on, things I never do. If nothing, say "no sample yet". Wait for corrections.
 Get me talking: ask me to tell you about one piece of work the way I would tell a friend, without interrupting, then ask two follow-ups for the details I skipped. That transcript is the primary voice source, above anything on LinkedIn.
 Interview me, three to five questions, one at a time, on what you still do not know: who I write for, what I want to be known for, what I never write about, who can be named. Write answers to memory.

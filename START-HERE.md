@@ -1,6 +1,6 @@
 # Start here
 
-Nothing to install. You need an AI assistant with memory, saved instructions, scheduled tasks and connectors, on its desktop app. Claude and ChatGPT both qualify. You also need a place to keep your posts, and a piece of work you can talk about for ten minutes. A LinkedIn account with posts on it helps. It is not required. Neither are meeting notes.
+Nothing to install. You need an AI assistant with memory, saved instructions, scheduled tasks and connectors, on its desktop app. Claude and ChatGPT both qualify. You also need a place to keep your posts, and a piece of work you can talk about for ten minutes. A LinkedIn account with posts on it helps. It is not required. Neither are meeting notes. Two or three pieces of your own writing, of any kind, help more than either. See step 3.
 
 These features are not on every plan. Check yours has them before the day.
 
@@ -29,7 +29,7 @@ Open your assistant's desktop app. Settings, then Connectors.
   - **The app's browser.** Open a new task, ask it to open linkedin.com in its browser, and sign in when the pane shows the login page.
   - **The Claude in Chrome extension.** Install it, sign in to LinkedIn in Chrome as you normally would, and the assistant reads it through your Chrome.
 
-  If you have no LinkedIn, or have never posted, skip this and bring any writing you have: a newsletter link, a case study, a long email you were proud of.
+  If you have no LinkedIn, or have never posted, skip this. Your other writing matters more anyway; see step 3.
 
 You do not need Gmail or Calendar. Leave them off.
 
@@ -49,7 +49,20 @@ List my connectors. If I have LinkedIn, open linkedin.com/in/me in your browser 
 
 You are ready when the assistant names your connectors and, if you have LinkedIn, reads your headline back to you. If the browser pane shows a login page, sign in and ask again. If you use the Chrome extension, make sure you are signed in to LinkedIn in Chrome first.
 
-## 3. Decide three things on paper
+## 3. Gather two or three things you have written
+
+Most people have few LinkedIn posts, or none. That is fine. The assistant learns your voice from anything you wrote yourself, and writing you did for your team is often closer to how you really sound than a post you polished for strangers.
+
+Find two or three pieces and have the links or the text ready to paste:
+
+- **Published**: an article, a blog post, a newsletter issue, a Medium piece, a case study, a portfolio write-up, talk notes.
+- **Internal**: a project update to your team, a kickoff or retro doc, a design rationale, a proposal, a long Slack message explaining a decision, an email you were proud of, an onboarding guide you wrote.
+
+Pick things you wrote alone and that sound like you. Skip anything a committee edited. Remove anything confidential before you paste it: client names, numbers, internal plans.
+
+If you have nothing at all, bring nothing. The voice prompt (`prompts/01-voice.md`) has you talk about a piece of work you care about for ten minutes, and the assistant builds your voice from that. It is the fallback, and it works.
+
+## 4. Decide three things on paper
 
 Before you prompt, write these down. `docs/VOICE-CARD.md` has the card. Ten minutes, pen not laptop.
 
